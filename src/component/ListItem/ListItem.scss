@@ -1,0 +1,91 @@
+.r-item-content {
+    display: flex;
+    padding-top: rem(15px);
+    padding-bottom: rem(15px);
+    margin-left: rem(10px);
+    margin-right: rem(10px);
+    color: #656565;
+    &:after {
+        background-color: #e4e4e4;
+    }
+    .item-img {
+        width: rem(86px);
+        height: rem(65px);
+        border: 1px solid #e4e4e4;
+    }
+    .item-info-content {
+        flex: 1;
+        margin-left: rem(7px);
+        overflow: hidden;
+    }
+    .brand {
+        position: absolute;
+        left: rem(1px);
+        top: rem(16px);
+        font-size: rem(12px);
+        padding: rem(2px);
+        color: #fff;
+    }
+    .brand-pin {
+        background-color: #ffa627;
+    }
+    .brand-xin {
+        background-color: #21c56c;
+    }
+    .item-title {
+        margin-top: rem(3px);
+        font-size: rem(16px);
+        font-weight: 500;
+        color: #333;
+    }
+    .item-desc {
+        margin-top: rem(13px);
+        font-size: rem(12px);
+    }
+
+    .item-score {
+        float: left;
+    }
+    .item-count {
+        float: left;
+        margin-left: rem(5px);
+    }
+    .item-time {
+        float: right;
+    }
+    .item-distance {
+        float: right;
+    }
+    .item-price {
+        margin-top: rem(10px);
+        font-size: rem(12px);
+        height: rem(24px);
+    }
+    .item-meituan-flag {
+        float: right;
+        background-color: #ffd161;
+        color: #000;
+        padding: rem(3px);
+        border-radius: rem(3px);
+    }
+    .other-info {
+        color: #898989;
+        margin-top: rem(7px);
+        font-size: rem(12px);
+        display: flex;
+    }
+    .other-tag {
+        width: rem(14px);
+        height: rem(14px);
+    }
+    .other-content {
+        vertical-align: rem(3px);
+        margin-left: rem(3px);
+        height: rem(14px);
+        width: rem(230px);
+    }
+    .item-pre-price {
+        float: left;
+    }
+
+}

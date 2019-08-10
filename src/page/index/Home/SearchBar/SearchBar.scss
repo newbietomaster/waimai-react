@@ -1,0 +1,70 @@
+.search-bar {
+    width: 100%;
+    height: rem(40px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: rem(14px);
+    .bar-location {
+        margin-right: rem(20px);
+        border-radius: rem(13px);
+        height: rem(28px);
+        width: rem(92px);
+        background-color: rgba(0,0,0,.33);
+        line-height: rem(28px);
+    }
+    .location-icon {
+        display: inline-block;
+        width: rem(15px);
+        height: rem(20px);
+        vertical-align: rem(8px);
+        margin-left: rem(8px);
+        background-image: url(./img/locationIcon.png);
+        background-size: cover;
+    }
+    .location-text {
+        position: relative;
+        display: inline-block;
+        font-size: rem(14px);
+        color: #fff;
+        vertical-align: rem(12px);
+        margin-left: rem(8px);
+        margin-right: rem(19px);
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            background-image: url(./img/arrowIcon.png);
+            background-size: cover;
+            right: rem(-15px);
+            top: rem(7px);
+        }
+    }
+    .search-btn {
+        width: rem(170px);
+        height: rem(30px);
+        background-color: #fff;
+        border-radius: rem(20px);
+        position: relative;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            background-image: url('./img/searchIcon.png');
+            background-size: cover;
+            top: 8px;
+            left: 6px;
+        }
+    }
+    .place-holder{
+        color: #a9a9a9;
+        font-size: rem(14px);
+        line-height: rem(30px);
+        margin-left: rem(28px);
+    }
+}
